@@ -1,0 +1,150 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.my-body {
+    background-color: #eef0f0;
+    margin: 0 ;
+}
+
+.box-row {
+    background-color: white;
+    width: 35%;
+    margin: 5rem 27rem;
+    border-radius: 4px;
+    box-shadow: 0 .3rem 1rem rgba(48, 48, 48, 0.2);
+}
+form{
+    padding: 1rem;
+}
+.box-text h5{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+label{
+    margin-bottom: 10px;
+}
+.box-row form input{
+    padding: .7rem;
+    margin-bottom: 10px;
+}
+
+
+.my-header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    color: #0033ff;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-right: 450px;
+}
+
+.input-box input {
+    padding: .5rem;
+    margin: 10px 0px;
+    border: 1px solid rgb(189, 186, 186);
+    border-radius: 4px;
+}
+
+.input-box input:hover {
+    border: 1px solid rgb(155, 152, 152);
+    outline-color: #0033ff;
+}
+
+.input-box button {
+    background-color: #0033ff;
+    padding: .5rem;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bolder;
+    margin-right: 5px;
+}
+
+.input-box button:hover {
+    background-color: #0332ee;
+}
+
+.input-box a {
+    text-decoration: none;
+}
+
+.input-box a:hover {
+    text-decoration: underline;
+}
+
+.create-ac {
+    align-items: center;
+}
+.create-ac a{
+    text-decoration: none;
+    padding: .5rem;
+    background-color: gray;
+    color: white;
+    border-radius: 4px;
+    margin-left: 17.8rem;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.create-ac a:hover{
+    color: white;
+}
+.create-ac button{
+    font-weight: bold;
+}
+
+.status{
+    color: green;
+    font-weight: bold;
+    font-size: 1rem;
+    position: absolute;
+    margin-left: 35%;
+    top: 24rem;
+}
+
+
+
+
+
+/* FOOTER CSS */
+footer {
+    background-color: white;
+    width: 100%;
+    margin-top: 9rem;
+    height: 100%;
+}
+
+.footer {
+    padding: 35px 160px;
+    font-size: 12px;
+    color: rgb(134, 133, 133);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.footer a {
+    color: rgb(134, 134, 134);
+    text-decoration: none;
+    margin-right: 14.4px;
+    font-size: 13px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: rgb(134, 133, 133);
+}
+
+.footer h9 {
+    color: rgb(97, 96, 96);
+    font-size: 13px;
+    margin-right: 14.5px;
+}
+
+/* FOOTER CSS */

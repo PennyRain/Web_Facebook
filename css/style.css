@@ -1,0 +1,384 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.my-body {
+    background-color: #eef0f0;
+    margin: 0 ;
+}
+
+.row-text{
+    line-height: normal;
+    margin-right: 10rem;
+    margin-bottom: 6rem;
+}
+
+.row-text h1{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #007bff;
+}
+.row-text h8{
+    font-size: 1.7rem;
+    font-weight: 480;
+}
+.text-h8{
+    width: 111%;
+}
+
+.my-container{
+    margin: 8.5rem 11.5rem;
+    align-items: center;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.box-row{
+    background-color: white;
+    height: 350px;
+    width: 85%;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0 .3rem 1rem rgba(48, 48, 48, 0.2);
+}
+.box-row form{
+    padding: 1rem;
+    gap:15px;
+}
+.box-row form input{
+   padding: .7rem;
+}
+.input-login input{
+    width: 100%;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding: .7rem;
+}
+.forgot-pass a{
+    text-decoration: none;
+}
+.forgot-pass a:hover{
+    text-decoration: underline;
+}
+.create-ac hr{
+    margin:0;
+    margin-bottom: 30px;
+}
+.create-ac button{
+    background-color:  rgb(3, 189, 10);
+    padding: .7rem;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.create-ac button:hover{
+    background-color: rgb(4, 168, 9);
+    transition: all .3s;
+}
+
+/* POPUP REGISTER CSS */
+.popup-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.652);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.popup-container .popup{
+    border-radius: 7px;
+    top: 0;
+    background-color: white;
+    height: 77%;
+    width: 32%;
+    box-shadow: 0 .3rem 1rem rgba(48, 48, 48, 0.2);
+}
+.form-register{
+    padding: 1rem;
+    line-height: normal;
+    display: flex;
+    padding-bottom: 0;
+    padding-top: .5rem;
+}
+.form-register h2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+    width: 98%;
+    margin-bottom: 0;
+}
+h10{
+    color: #797775;
+    padding-left:1rem ;
+    padding-top: 0;
+}
+.form-register button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    float: right;
+    margin-bottom: 10px;
+}
+.form-register button i{
+    font-weight: bold;
+    color: #797775;
+    font-size: 20px;
+}
+/* POPUP REGISTER CSS */
+.popup hr{
+    margin: 0.5rem 0;
+}
+
+
+/* FORM REGISTER CSS */
+.row {
+    padding:  0.5rem 1rem;
+}
+.form-group input{
+    margin-bottom: 10px;
+}
+.form-group-sex {
+    border: 1px solid rgb(218, 216, 216);
+    border-radius: 4px;
+    padding: .15rem 0;
+}
+.register-info {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0;
+    padding-top: .5rem;
+    font-size: .7rem;
+    color: #797775;
+}
+.register-info p{
+    margin-bottom: 0;
+}
+.register-info a{
+    text-decoration: none;
+}
+.register-info a:hover{
+    text-decoration:  underline;
+}
+.register-btn button{
+    background-color: rgb(3, 189, 10);
+    color: white;
+    font-weight: bold;
+    padding: .4rem 3rem;
+    justify-content: center;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8.5rem;
+}
+.register-btn button:hover{
+    background-color: rgb(2, 170, 8);
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    font-size: .7rem;
+    position: absolute;
+    margin-left: 66%;
+}
+.success{
+    color: green;
+    font-weight: bold;
+    font-size: .7rem;
+    position: absolute;
+    margin-left: 66%;
+}
+/* FORM REGISTER CSS */
+
+.create-page {
+    width: 30.5%;
+    float: right;
+    text-align: center;
+    margin-right: 11rem;
+}
+.create-page a{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.create-page h9{
+    font-size: .9rem;
+}
+.create-page a:hover{
+    text-decoration: underline;
+    color: black;
+
+}
+/* FOOTER CSS */
+footer {
+    background-color: white;
+    width: 100%;
+    margin-top: 9rem;
+    height: 100%;
+}
+
+.footer {
+    padding: 35px 160px;
+    font-size: 12px;
+    color: rgb(134, 133, 133);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.footer a {
+    color: rgb(134, 134, 134);
+    text-decoration: none;
+    margin-right: 14.4px;
+    font-size: 13px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: rgb(134, 133, 133);
+}
+
+.footer h9 {
+    color: rgb(97, 96, 96);
+    font-size: 13px;
+    margin-right: 14.5px;
+}
+
+/* FOOTER CSS */
+
+
+@media(max-width:1300px){
+    html{
+        width: 100%;
+    }
+    .my-body{
+        margin: 0 10rem;
+    }
+    .my-container{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .row-text{
+        text-align: center;
+        margin-top: 5rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .row-text h1{
+        font-size: 5rem;
+    }
+
+    .row-text h8{
+        display: none;
+    }
+    .box-row{
+        width: 100%;
+        height: 600px;
+    }
+    .box-row form input{
+        padding: 1.5rem;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+     }
+     .forgot-pass a{
+         font-size: 1.5rem;
+     }
+     .create-ac hr{
+        margin-bottom: 2.5rem;
+     }
+     .create-ac button{
+        padding: 1.5rem;
+        font-size: 1.5rem;
+       
+     }
+     .popup-container .popup{
+        height: 80%;
+        width: 60%;
+     }
+     .popup-container .popup .row .form-group input{
+         padding: 1.5rem;
+         font-size: 1.5rem;
+     }
+     
+     .register-info {
+         font-size: 1.2rem ;
+     }
+     .form-register h2{
+         font-size: 2rem;
+     }
+     h10{
+         font-size: 1.5rem;
+     }
+     .form-register button i{
+         font-size: 2rem;
+     }
+     .register-btn {
+         margin-left: 4rem;
+     }
+     .register-btn button{
+         padding: 1rem 3rem;
+         font-size: 1.5rem;
+     }
+     .form-group-sex {
+         padding: 1rem 0;
+         font-size: 1.2rem;
+     }
+     .form-group-sex label{
+         font-size: 1rem;
+     }
+     .form-group-sex input{
+         padding: .5rem;
+         margin-left: 3rem;
+     }
+     .create-page {
+         display: none;
+     }
+     .error{
+         top: 47rem;
+         right: 20.5rem;
+         width: 30%;
+         font-size: 1.2rem;
+     }
+    footer{
+        display: none;
+    }
+    
+}
+@media(max-width:768px){
+    html{
+        width: 55%;
+    }
+    .box-row{
+     width: 100%;
+     height: 10000px;
+     }
+ .box-row form input{
+     padding: 2rem;
+     font-size: 2rem;
+     margin-bottom: 15px;
+  }
+  .forgot-pass a{
+      font-size: 2rem;
+  }
+  .create-ac hr{
+     margin-bottom: 3rem;
+  }
+  .create-ac button{
+     padding: 2rem;
+     font-size: 2rem;
+    
+  }
+
+ }
